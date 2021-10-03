@@ -1,0 +1,31 @@
+.movie-menu {
+  position: fixed;
+  left: 0;
+  top: 100px;
+  height: 100%;
+  width: 130px;
+  background-color: rgb(9, 67, 161);
+  font-size: 2rem;
+}
+
+.movie-menu ul {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
+}
+
+.movie-menu li {
+  margin-bottom: 15px;
+}
+
+.movie-menu a {
+  text-decoration: none;
+  color: rgb(240, 243, 49);
+}
+
+.underline {
+  text-decoration: underline;
+  text-underline-position: under;
+}

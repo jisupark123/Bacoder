@@ -1,0 +1,42 @@
+.movie-character-main {
+  margin-left: var(--movie-main-margin-left);
+  box-sizing: content-box;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.movie-charcter-main__row {
+  display: flex;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.movie-character-main__image {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie-charcter-main__text {
+  width: 60%;
+}
+
+.movie-character-main__name span:first-child {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.movie-character-main__name span:last-child {
+  font-size: 2rem;
+  font-weight: bold;
+  opacity: 0.5;
+}
+
+.movie-charcter-main__content {
+  margin-top: 20px;
+  font-size: 2rem;
+}

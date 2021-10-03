@@ -1,0 +1,31 @@
+.movie-intro-main {
+  margin-left: var(--movie-main-margin-left);
+  box-sizing: unset;
+}
+
+.movie-intro-main__post {
+  display: flex;
+  justify-content: space-around;
+}
+
+.movie-intro-main__content {
+  margin-top: 20px;
+}
+
+.movie-intro-main__info {
+  display: flex;
+  align-items: center;
+}
+
+.movie-intro-main__info h1 {
+  font-size: 3rem;
+  margin-right: 30px;
+}
+
+.movie-intro-main__info h3 {
+  font-size: 2rem;
+}
+
+.movie-intro-main__text {
+  font-size: 2rem;
+}

@@ -1,0 +1,17 @@
+.movie-main {
+  background-color: white;
+  height: 95%;
+}
+
+.movie-main__row {
+  height: 50%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.movie-main__row img {
+  width: 14rem;
+  height: 20rem;
+}

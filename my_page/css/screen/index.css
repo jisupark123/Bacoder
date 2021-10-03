@@ -1,0 +1,57 @@
+.main {
+  height: 80%;
+  width: 100%;
+  display: flex;
+}
+
+.main__notice,
+.main__community {
+  width: 45%;
+  background-color: whitesmoke;
+}
+
+.main__notice {
+  border-top: 2px solid rgb(221, 58, 143);
+  margin-right: 10%;
+}
+
+.main__community {
+  border-top: 2px solid rgb(226, 0, 53);
+}
+
+.main__notice > div,
+.main__community > div {
+  width: 100%;
+  height: 16%;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.main__notice__label,
+.main__community__label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.main__notice__label div,
+.main__community__label div {
+  margin: 20px;
+}
+
+.main__notice__label div:first-child {
+  color: rgb(221, 58, 143);
+}
+
+.main__community__label div:first-child {
+  color: rgb(226, 0, 53);
+}
+
+.main__notice__label div:last-child,
+.main__community__label div:last-child {
+  font-size: 5rem;
+  font-weight: 100;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
